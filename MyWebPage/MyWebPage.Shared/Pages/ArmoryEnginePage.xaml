@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="MyWebPage.Shared.Pages.ArmoryEnginePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyWebPage.Shared.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid Width="800" Margin="20">
+            <ScrollViewer>
+                <Border HorizontalAlignment="Stretch"
+	                        BorderThickness="5"
+	                        BorderBrush="AntiqueWhite"
+	                        CornerRadius="10"
+	                        Padding="5">
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <TextBlock Text="&#xE822;   " FontFamily="Segoe MDL2 Assets" FontSize="24" HorizontalAlignment="Left"/>
+                            <TextBlock Text="Work in progress" FontSize="24" HorizontalAlignment="Center"/>
+                            <TextBlock Text="   &#xE822;" FontFamily="Segoe MDL2 Assets" FontSize="24" HorizontalAlignment="Right"/>
+                        </StackPanel>
+
+                        <TextBlock Text="New web porfolio" FontSize="30" Margin="20" HorizontalAlignment="Center"/>
+                        <TextBlock Text="This is a early verion of what I plan to be my new web portfolio that shows my other projects in interactive way in 3D space."/>
+                        <TextBlock Text=""/>
+                        <Border HorizontalAlignment="Center"
+	                        BorderThickness="5"
+	                        BorderBrush="LightBlue"
+                                    Padding="5">
+                            <Image Source="Assets/armory_engine_demo_2.png" Stretch="Uniform" Height="400" Width="650"/>
+                        </Border>
+                        <TextBlock Text=""/>
+                        <TextBlock Text="To build this website I am using Armory Engine. It is open source engine and it is build into Blender."/>
+                        <TextBlock Text="Projects can be deployed to desktop, web, mobile and consoles and I chose web as a main (and only ;) ) target."/>
+                        <TextBlock Text="The very first working verion can be seen here:"/>
+                        <TextBlock><Span><Hyperlink NavigateUri="https://armoryenginetest01.z6.web.core.windows.net/">https://armoryenginetest01.z6.web.core.windows.net/</Hyperlink></Span></TextBlock>
+                        <TextBlock Text="Warning: webGL 2.0 support required,"/>
+                        <TextBlock Text="iOS do not support this version and mobile browsers can have problem with rendering,"/>
+                        <TextBlock Text="desktop Google Chrome recommended."/>
+                        <TextBlock Text="Armory Engine website:"/>
+                        <TextBlock><Span><Hyperlink NavigateUri="https://armory3d.org/index.html">https://armory3d.org/index.html</Hyperlink></Span></TextBlock>
+                    </StackPanel>
+                </Border>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Page>

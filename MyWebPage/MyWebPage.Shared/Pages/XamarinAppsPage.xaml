@@ -1,0 +1,130 @@
+﻿<Page
+    x:Class="MyWebPage.Shared.Pages.XamarinAppsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyWebPage.Shared.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Pivot Title="Summary and description &#x0d;&#x0a;of my C# xamarin and UWP projects">
+            <PivotItem Header="Simon says game with Speech Recognition" Width="800">
+                <ScrollViewer>
+                    <Border HorizontalAlignment="Stretch"
+	                        BorderThickness="5"
+	                        BorderBrush="AntiqueWhite"
+	                        CornerRadius="10"
+	                        Padding="5">
+                        <StackPanel>
+                        <TextBlock TextWrapping="Wrap"
+                                       Text="A project I was doing with my team (I was a team leader) was an app that used Windows.Media.SpeechRecognition.SpeechRecognizer."/>
+                            <TextBlock Text="We made a simple game that was using windows build in speech recognition model."/>
+                            <TextBlock Text="We used Uno Platform to port this app to Android."/>
+                            <TextBlock Text=""/>
+                            <Border HorizontalAlignment="Center"
+	                        BorderThickness="5"
+	                        BorderBrush="LightBlue"
+                                    Padding="5">
+                                <Image Source="Assets/UNO_UWP.png" Stretch="Uniform" Height="400" Width="650"/>
+                            </Border>
+                            <TextBlock Padding="10" Margin="5,10,10,15" HorizontalAlignment="Center" Text="UWP app"/>
+                            <Border HorizontalAlignment="Center"
+	                        BorderThickness="5"
+	                        BorderBrush="LightBlue"
+                                    Padding="5">
+                                <Image Source="Assets/Uno_Project_Android.png" Stretch="Uniform" Height="650" Width="650"/>
+                            </Border>
+                            <TextBlock Padding="10" HorizontalAlignment="Center" Text="Android app" Margin="5,10,10,15"/>
+                            <TextBlock> <Span xml:space="preserve">
+                                <Run>Here is a PDF that we used during presentation of our project: </Run> </Span></TextBlock>
+                            <TextBlock><Span>
+                            <Hyperlink NavigateUri="https://github.com/VGFP/TMUnoProject/blob/master/TM%20Prezentacja%20projekt.pdf">https://github.com/VGFP/TMUnoProject/blob/master/TM%20Prezentacja%20projekt.pdf</Hyperlink></Span>
+                            </TextBlock>
+                            <TextBlock> <Span xml:space="preserve">
+                                <Run>Project source code: </Run>
+                                <Hyperlink NavigateUri="https://github.com/VGFP/TMUnoProject">https://github.com/VGFP/TMUnoProject</Hyperlink></Span>
+                            </TextBlock>
+                        </StackPanel>
+                    </Border>
+                </ScrollViewer>
+            </PivotItem>
+            <PivotItem Header="Saving and loading images as JSON" Width="800">
+                <ScrollViewer>
+                    <Border HorizontalAlignment="Stretch"
+	                        BorderThickness="5"
+	                        BorderBrush="AntiqueWhite"
+	                        CornerRadius="10"
+	                        Padding="5">
+                        <StackPanel Margin="20">
+                            <TextBlock TextWrapping="Wrap"
+                                       Text="Simple multiplatform app that loads and saves images in device memory as json files. I made this app to have a quick look how to do it in other projects."/>
+                            <TextBlock Text=""/>
+                            <Border HorizontalAlignment="Center"
+	                        BorderThickness="5"
+	                        BorderBrush="LightBlue"
+                                    Padding="5">
+                                <StackPanel>
+                                    <Image Source="Assets/SaveImagesXamarin.png" Stretch="Uniform" Height="650" Width="650"/>
+                                </StackPanel>
+                            </Border>
+                            <TextBlock TextWrapping="Wrap" Text="Saved binary file takes few kB more then PNG oryginal (Original: 252 kB, Saved: 332 kB) but can be used in multiple platforms by the same source code."/>
+                            <TextBlock TextWrapping="Wrap" Text="I only have been able to test it on UWP but all libraries are crossplatform so there shoudn't be a problem to use it on Android or iOS"/>
+                            <TextBlock TextWrapping="Wrap"><Run>Github Link: </Run><Hyperlink NavigateUri="https://github.com/VGFP/SaveBinaryFilesInXamarin">https://github.com/VGFP/SaveBinaryFilesInXamarin</Hyperlink></TextBlock>
+                            <TextBlock TextWrapping="WrapWholeWords">
+                            <Span xml:space="preserve"><Run>For iOS you need to add pemissions more here: </Run><Hyperlink NavigateUri="https://github.com/jamesmontemagno/MediaPlugin">https://github.com/jamesmontemagno/MediaPlugin</Hyperlink></Span>
+                            <Span xml:space="preserve"><Run>This project is using MediaPlugin : </Run><Hyperlink NavigateUri="https://github.com/jamesmontemagno/MediaPlugin/blob/master/LICENSE">https://github.com/jamesmontemagno/MediaPlugin/blob/master/LICENSE</Hyperlink></Span>
+                            <Span xml:space="preserve"><Run>And PCLStorage: </Run><Hyperlink NavigateUri="https://github.com/dsplaisted/PCLStorage/blob/master/LICENSE">https://github.com/dsplaisted/PCLStorage/blob/master/LICENSE</Hyperlink></Span>
+                            </TextBlock>
+                            <TextBlock Text=""/>
+                        </StackPanel>
+                    </Border>
+                </ScrollViewer>
+            </PivotItem>
+            <PivotItem Header="Game of Life" Width="800">
+                <ScrollViewer>
+                    <Border HorizontalAlignment="Stretch"
+	                        BorderThickness="5"
+	                        BorderBrush="AntiqueWhite"
+	                        CornerRadius="10"
+	                        Padding="5">
+                        <StackPanel Margin="20">
+                            <TextBlock Text="Game of life I made as UWP app. The same app is on this website but it works slower then native. More information on Game of Life page" TextWrapping="Wrap"/>
+                            <TextBlock/>
+                            <Border HorizontalAlignment="Stretch"
+	                        BorderThickness="5"
+	                        BorderBrush="LightBlue"	                        
+	                        Padding="5">
+                            <Image Source="Assets/Adnotacja 2019-09-09 143334.png" Stretch="Uniform" Height="Auto" Width="Auto"/>
+                            </Border>
+                            <TextBlock>
+                            <Span xml:space="preserve"><Run>Github: </Run><Hyperlink NavigateUri="https://github.com/VGFP/GameofLife-in-UWP">https://github.com/VGFP/GameofLife-in-UWP</Hyperlink></Span>
+                            </TextBlock>
+                            <TextBlock Text=""/>
+                            <Button x:Name="gotoGamOfLife" Content="Go to Game of Life Page on this website" HorizontalAlignment="Center" Height="70" Width="180" Click="gotoGamOfLifeClick"/>
+                            <TextBlock Text=""/>
+                        </StackPanel>
+                    </Border>
+                </ScrollViewer>
+            </PivotItem>
+            <PivotItem Header="This website" Width="800">
+                <ScrollViewer>
+                    <Border HorizontalAlignment="Center"
+	                        BorderThickness="5"
+	                        BorderBrush="AntiqueWhite"
+	                        CornerRadius="10"
+	                        Padding="5">
+                        <StackPanel Margin="20" Width="750">
+                            <TextBlock Text="This entire website is written in C# and XAML. Thanks to the WebAssembly and Uno Platform it is possible to run C# code in browser. More information in Main Page -> About this web page." TextWrapping="Wrap"/>
+                            <TextBlock>
+                            <Span xml:space="preserve"><Run>Uno Platform website: </Run><Hyperlink NavigateUri="https://platform.uno/">https://platform.uno/</Hyperlink></Span>
+                            </TextBlock>
+                            <TextBlock Text=""/>
+                        </StackPanel>
+                    </Border>
+                </ScrollViewer>
+            </PivotItem>
+        </Pivot>
+    </Grid>
+</Page>
