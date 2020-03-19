@@ -18,9 +18,9 @@
 	                        Padding="5">
                     <StackPanel>
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                            <TextBlock Text="&#xE822;   " FontFamily="Segoe MDL2 Assets" FontSize="24" HorizontalAlignment="Left"/>
-                            <TextBlock Text="Work in progress" FontSize="24" HorizontalAlignment="Center"/>
-                            <TextBlock Text="   &#xE822;" FontFamily="Segoe MDL2 Assets" FontSize="24" HorizontalAlignment="Right"/>
+                            <TextBlock Text="&#xE822;   "  FontFamily="Segoe MDL2 Assets" FontSize="32" HorizontalAlignment="Left"/>
+                            <TextBlock Text="Work in progress" FontSize="32" HorizontalAlignment="Center"/>
+                            <TextBlock Text="   &#xE822;" FontFamily="Segoe MDL2 Assets" FontSize="32" HorizontalAlignment="Right"/>
                         </StackPanel>
 
                         <TextBlock Text="New web porfolio" FontSize="30" Margin="20" HorizontalAlignment="Center"/>
