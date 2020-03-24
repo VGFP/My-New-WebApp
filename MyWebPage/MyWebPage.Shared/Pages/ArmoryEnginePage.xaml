@@ -24,7 +24,7 @@
                         </StackPanel>
 
                         <TextBlock Text="New web porfolio" FontSize="30" Margin="20" HorizontalAlignment="Center"/>
-                        <TextBlock Text="This is a early verion of what I plan to be my new web portfolio that shows my other projects in interactive way in 3D space."/>
+                        <TextBlock Text="This is a early version of what I plan to be my new web portfolio that shows my other projects in interactive way in 3D space."/>
                         <TextBlock Text=""/>
                         <Border HorizontalAlignment="Center"
 	                        BorderThickness="5"
