@@ -33,14 +33,14 @@
                             <Image Source="Assets/armory_engine_demo_2.png" Stretch="Uniform" Height="400" Width="650"/>
                         </Border>
                         <TextBlock Text=""/>
-                        <TextBlock Text="To build this website I am using Armory Engine. It is open source engine and it is build into Blender."/>
+                        <TextBlock Text="In this project I am using Armory Engine. It is open source engine and it is build into Blender."/>
                         <TextBlock Text="Projects can be deployed to desktop, web, mobile and consoles and I chose web as a main (and only ;) ) target."/>
                         <TextBlock Text="The very first working verion can be seen here:"/>
                         <TextBlock><Span><Hyperlink NavigateUri="https://armoryenginetest01.z6.web.core.windows.net/">https://armoryenginetest01.z6.web.core.windows.net/</Hyperlink></Span></TextBlock>
                         <TextBlock Text="Warning: webGL 2.0 support required,"/>
                         <TextBlock Text="iOS do not support this version and mobile browsers can have problem with rendering,"/>
-                        <TextBlock Text="desktop Google Chrome recommended."/>
-                        <TextBlock Text="Armory Engine website:"/>
+                        <TextBlock Text="Desktop Google Chrome recommended"/>
+                        <TextBlock Text="Armory Engine website: "/>
                         <TextBlock><Span><Hyperlink NavigateUri="https://armory3d.org/index.html">https://armory3d.org/index.html</Hyperlink></Span></TextBlock>
                     </StackPanel>
                 </Border>
